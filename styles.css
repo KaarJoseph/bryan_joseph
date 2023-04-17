@@ -221,3 +221,7 @@ p {
 .showText {
   display: block;
 }
+
+.img-right{
+  float: right;
+}

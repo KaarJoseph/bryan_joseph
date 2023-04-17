@@ -46,7 +46,7 @@ h1{
   margin: 10px auto;
 }
 body{
-  background-color: #d61c1c;
+  background-color: #000000;
 }
 h1::before{
   content: "";
@@ -154,7 +154,7 @@ p{
   position: relative;
   width: 80%;
   margin: 50px auto;
-  color: #ffffff;
+  color: #000000;
 }
 
 a{
@@ -192,7 +192,11 @@ h1 {
 p {
  font-size: 1.2em;
  padding: 0em 2em;
- color: rgba(0, 0, 0, .5);
+ color: rgb(255, 255, 255);
+}
+
+h2{
+  color: rgb(255, 255, 255);
 }
 
 .read-more-btn {
@@ -222,6 +226,16 @@ p {
   display: block;
 }
 
-.img-right{
-  float: right;
+.img-right {
+  max-width: 800px; /* Establece el ancho máximo del contenedor */
+  margin: 0px; /* Centra el contenedor en la página */
+}
+
+
+/* Media query para dispositivos móviles */
+@media (max-width: 100%) {
+  .img-right{
+    float: none; /* Elimina la propiedad float para que la imagen ocupe todo el ancho de la pantalla */
+    max-height: none; /* Elimina la altura máxima de la imagen */
+  }
 }

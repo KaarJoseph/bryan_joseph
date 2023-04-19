@@ -234,7 +234,7 @@ h2{
 }
 
 .img-right{
-  width: 325px;
+  width: 275px;
   height: 275px;
   position: relative;
   top: -300px;
@@ -251,12 +251,12 @@ h2{
 }
 
 .img-left {
-  width: 325px;
-  height: 275px;
+  width: 349.5px;
+  height: 157.5px;
   position: relative;
   top: -300px;
   left: 1000px;
-  transform: translate(-270%, -110%);
+  transform: translate(-260%, -110%);
 }
 
 /* Media query para dispositivos móviles */

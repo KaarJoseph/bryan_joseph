@@ -233,18 +233,13 @@ h2{
   display: block;
 }
 
-.img-right {
+.img-right{
   width: 325px;
   height: 275px;
   position: relative;
-}
-.img-right img {
-  position: absolute;
   top: -300px;
   left: 1000px;
   transform: translate(-50%, -50%);
-  width: 100%;
-  height: auto;
 }
 
 /* Media query para dispositivos móviles */
@@ -255,19 +250,13 @@ h2{
   }
 }
 
-
 .img-left {
   width: 325px;
   height: 275px;
   position: relative;
-}
-.img-left img {
-  position: absolute;
   top: -300px;
   left: 1000px;
   transform: translate(-270%, -110%);
-  width: 100%;
-  height: auto;
 }
 
 /* Media query para dispositivos móviles */
@@ -276,4 +265,9 @@ h2{
     float: none; /* Elimina la propiedad float para que la imagen ocupe todo el ancho de la pantalla */
     max-height: none; /* Elimina la altura máxima de la imagen */
   }
+}
+
+.links{
+  color: #002fff;
+  text-shadow: 0px 0px 1px #002fff;
 }

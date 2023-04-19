@@ -236,12 +236,11 @@ h2 {
 }
 
 .img-right {
-  width: 275px;
-  height: 275px;
-  position: relative;
-  top: -300px;
+    display: block;
+    margin: 0px auto;
+  /*top: -300px;
   left: 1000px;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
 }
 
 /* Media query para dispositivos móviles */
@@ -354,3 +353,6 @@ footer p {
   background-color: #ffffff;
   color: black;
 }
+
+body b{
+  background-color: #425185;

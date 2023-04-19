@@ -146,7 +146,7 @@ button {
 }
 .pie-pagina{
     width: 100%;
-    background-color: #B06AB3;
+    background-color: #425185;
     position: absolute;
     top: 660px;
     
@@ -186,7 +186,7 @@ button {
     height: 45px ;
     line-height: 45px;
     color: #fff;
-    background-color: #c274b4;
+    background-color: #425185;
     text-align: center;
     transition: all 300ms ease;
 }
@@ -194,7 +194,7 @@ button {
     color: aqua;
 }
 .pie-pagina .grupo-2{
-    background-color: #0a1a20;
+    background-color: #ffc400;
     padding: 15px 10px;
     text-align: center;
     color: #fff;

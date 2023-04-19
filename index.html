@@ -14,9 +14,9 @@
   <header>
     <nav>
       <ul>
-        <li><a href="#">Validadores (HTML)</a></li>
+        <li><a href="validadores.html">Validadores (HTML)</a></li>
         <li><a href="#">Hojas de estilo (CSS)</a></li>
-        <li><a href="#">Contáctanos (JavaScript)</a></li>
+        <li><a href="formulario.html">Contáctanos (JavaScript)</a></li>
       </ul> 
     </nav>
   </header>
@@ -24,7 +24,7 @@
 
   <div class="containerR">
 
-    <a    href=Formulario.html><button>Datos Personales</button></a>
+    <a    href=formulario.html><button>Datos Personales</button></a>
     <!-- <button href="formulario.html">Contactanos</button>-->
    
 </div>
@@ -90,20 +90,27 @@
 
       <div class="container_letf">
         <h2>PRINCIPALES COMPONENTES/ELEMENTOS (HTML)</h2>
-        <p>HyperText Markup Languageo HTML por sus siglas en inglés es el lenguaje de marcado estándar utilizado para crear páginas web. Los estándares HTML se refieren a las especificaciones técnicas que definen cómo debe escribirse el código HTML para que los navegadores web puedan interpretarlo correctamente y mostrar la página web de manera consistente.
+        <p>HTML (Hypertext Markup Language) es el lenguaje de marcado estándar para la creación de páginas web. Los principales componentes o elementos de HTML son los siguientes:
           <br>
           <br>
-          El World Wide Web Consortium (W3C) es la organización encargada de desarrollar y mantener los estándares HTML. El primer estándar HTML, conocido como HTML 2.0, fue publicado en 1995, y desde entonces ha habido varias revisiones y versiones nuevas.
-          <br>
-          <br>
-          La versión más reciente de HTML es HTML5, que se lanzó en 2014. HTML5 introdujo muchas nuevas características y mejoras, incluyendo soporte para multimedia, gráficos vectoriales, almacenamiento local, formularios avanzados y más.
-          <br>
+          Etiquetas: son los elementos básicos de HTML que se utilizan para definir el contenido y la estructura de una página web. Las etiquetas tienen una sintaxis que consiste en un nombre de etiqueta rodeado de corchetes angulares, por ejemplo &lthtml&gt o &ltbody&gt.
           <br> 
-          <span class="hideText">
-          Los estándares HTML también especifican cómo debe estructurarse y organizarse el contenido de una página web, utilizando elementos HTML como encabezados, párrafos, listas y enlaces. Además, los estándares incluyen directrices para el uso de estilos CSS (Cascading Style Sheets) y scripts JavaScript en las páginas web.
           <br>
+          Atributos: son valores que se utilizan para modificar el comportamiento o la apariencia de las etiquetas. Los atributos se añaden a las etiquetas mediante el uso de pares clave-valor, por ejemplo href="https://www.ejemplo.com" en la etiqueta &lta&gt.
+          <br><br>
+          Elementos de texto: son los elementos utilizados para mostrar texto en una página web. Algunos ejemplos de elementos de texto son &lth1&gt para encabezados, &ltp&gt para párrafos y &lta&gt para enlaces.
+          <br><br>
+          Imágenes: las imágenes se insertan en una página web mediante la etiqueta &ltimg&gt, que utiliza el atributo src para indicar la ubicación de la imagen.
+          <span class="hideText">        
           <br>
-          Es importante seguir los estándares HTML al crear páginas web para garantizar que sean accesibles para todos los usuarios, incluyendo aquellos que utilizan tecnologías de asistencia como lectores de pantalla, y para que los navegadores web puedan mostrar la página de manera coherente en diferentes dispositivos y plataformas.</p>
+          Listas: se utilizan para mostrar elementos en forma de lista, ya sea ordenada (&ltol&gt) o no ordenada (&ltul&gt).
+          <br><br>
+          Tablas: se utilizan para organizar datos en filas y columnas. Las tablas se crean mediante las etiquetas &lttable&gt, &lttr&gt y &lttd&gt.
+          <br><br>
+          Formularios: se utilizan para recopilar información del usuario y enviarla al servidor. Los formularios se crean mediante la etiqueta &ltform&gt y contienen elementos como &ltinput&gt y &ltbutton&gt.
+          <br><br>
+          Metaetiquetas: son etiquetas especiales que se utilizan para proporcionar información adicional sobre la página web, como el título, la descripción y las palabras clave. Las metaetiquetas se incluyen en la sección &lthead&gt de la página web.
+          </p>
           </span>
           <button class="read-more-btn">Leer más</button>
       </div> 
@@ -112,22 +119,46 @@
 
 
         <div class="container_right">
-          <h2>ESTRUCTURA DE UNA PÁGINA WEB</h2>
-          <p>HyperText Markup Languageo HTML por sus siglas en inglés es el lenguaje de marcado estándar utilizado para crear páginas web. Los estándares HTML se refieren a las especificaciones técnicas que definen cómo debe escribirse el código HTML para que los navegadores web puedan interpretarlo correctamente y mostrar la página web de manera consistente.
+          <h2>PRINCIPALES ESTILOS PARA CSS</h2>
+          <p>CSS (Cascading Style Sheets) es un lenguaje utilizado para definir el estilo y la presentación de documentos HTML, XML y otros tipos de documentos web. Los principales estilos para CSS son:
             <br>
             <br>
-            El World Wide Web Consortium (W3C) es la organización encargada de desarrollar y mantener los estándares HTML. El primer estándar HTML, conocido como HTML 2.0, fue publicado en 1995, y desde entonces ha habido varias revisiones y versiones nuevas.
+            Estilo en línea: Se aplica a un elemento específico utilizando el atributo "style" en la etiqueta HTML. Ejemplo:
+            <br>
+            &lth1&gt style="color: blue;"&gtTítulo&lt/h1&gt
+            <br>
+            Estilo interno: Se aplica a un documento HTML específico utilizando la etiqueta &ltstyle&gt en la sección de &lthead&gt. Ejemplo:
             <br>
             <br>
-            La versión más reciente de HTML es HTML5, que se lanzó en 2014. HTML5 introdujo muchas nuevas características y mejoras, incluyendo soporte para multimedia, gráficos vectoriales, almacenamiento local, formularios avanzados y más.
+            &lthead>
             <br>
+            &#160 &#160 &#160 &ltstyle> <br>
+            &#160 &#160 &#160&#160h1 {<br>
+            &#160 &#160&#160&#160&#160 color: blue;<br>
+            &#160 &#160 &#160&#160} <br>
+            &#160 &#160 &#160&lt/style> <br>
+                &lt/head> <br>
+                &ltbody> <br>
+            &#160 &#160&#160&lth1>Título&lt/h1> br
+                &lt/body>
+            
             <br> 
             <span class="hideText">
-            Los estándares HTML también especifican cómo debe estructurarse y organizarse el contenido de una página web, utilizando elementos HTML como encabezados, párrafos, listas y enlaces. Además, los estándares incluyen directrices para el uso de estilos CSS (Cascading Style Sheets) y scripts JavaScript en las páginas web.
-            <br>
-            <br>
-            Es importante seguir los estándares HTML al crear páginas web para garantizar que sean accesibles para todos los usuarios, incluyendo aquellos que utilizan tecnologías de asistencia como lectores de pantalla, y para que los navegadores web puedan mostrar la página de manera coherente en diferentes dispositivos y plataformas.</p>
+              Estilo externo: Se aplica a varios documentos HTML utilizando un archivo CSS externo que se vincula a través de la etiqueta &ltlink> en la sección de &lthead>. Ejemplo:
+              <br> 
+              <br> 
+              &lthead> <br> 
+              &#160 &#160 &#160 &#160 &ltlink rel="stylesheet" type="text/css" href="estilos.css"> <br> 
+              &lt/head> <br> 
+              &ltbody> <br> 
+              &#160 &#160 &#160 &#160 &lth1>Título&lt/h1> <br> 
+              &lt/body>&lt/p>  
+              <br>
+              <br>
+              <a class="links" href="comunesCss.html">Ver los más cómunes</a>
             </span>
+            <br> 
+            <br> 
             <button class="read-more-btn">Leer más</button>
         </div> 
     
@@ -135,6 +166,28 @@
           <img class="img-left" src="https://raw.githubusercontent.com/KaarJoseph/bryan_joseph/main/IMAGENES/IMG1.png" alt="HTML" width="400" height="400"> 
 
           
+          <div class="container_letf">
+            <h2>ESTÁNDARES HTML </h2>
+            <p>HyperText Markup Languageo HTML por sus siglas en inglés es el lenguaje de marcado estándar utilizado para crear páginas web. Los estándares HTML se refieren a las especificaciones técnicas que definen cómo debe escribirse el código HTML para que los navegadores web puedan interpretarlo correctamente y mostrar la página web de manera consistente.
+              <br>
+              <br>
+              El World Wide Web Consortium (W3C) es la organización encargada de desarrollar y mantener los estándares HTML. El primer estándar HTML, conocido como HTML 2.0, fue publicado en 1995, y desde entonces ha habido varias revisiones y versiones nuevas.
+              <br>
+              <br>
+              La versión más reciente de HTML es HTML5, que se lanzó en 2014. HTML5 introdujo muchas nuevas características y mejoras, incluyendo soporte para multimedia, gráficos vectoriales, almacenamiento local, formularios avanzados y más.
+              <br>
+              <br> 
+              <span class="hideText">
+              Los estándares HTML también especifican cómo debe estructurarse y organizarse el contenido de una página web, utilizando elementos HTML como encabezados, párrafos, listas y enlaces. Además, los estándares incluyen directrices para el uso de estilos CSS (Cascading Style Sheets) y scripts JavaScript en las páginas web.
+              <br>
+              <br>
+              Es importante seguir los estándares HTML al crear páginas web para garantizar que sean accesibles para todos los usuarios, incluyendo aquellos que utilizan tecnologías de asistencia como lectores de pantalla, y para que los navegadores web puedan mostrar la página de manera coherente en diferentes dispositivos y plataformas.</p>
+              </span>
+              <button class="read-more-btn">Leer más</button>
+          </div> 
+      
+            <img class="img-right" src="https://raw.githubusercontent.com/KaarJoseph/bryan_joseph/main/IMAGENES/IMG1.png" alt="HTML" width="400" height="400">
+
 
     <footer>
         <div class="contact-info">

@@ -1,0 +1,16 @@
+.img-gallery{
+  width: 90%;
+  margin: 50px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  gap: 30px;
+}
+.img-gallery img{
+  width: 100%;
+
+  cursor: pointer;
+  transition: 1s;
+}
+.img-gallery img:hover{
+  transform: scale(1.2);
+}

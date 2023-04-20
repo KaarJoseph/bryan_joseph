@@ -1,9 +1,13 @@
 body {
-  background-color: rgb(200, 233, 15);
+  background-color: rgb(255, 217, 0);
 }
 
 h1{
-  color: blueviolet;
+  color: rgb(0, 0, 0);
   font-family:cursive;
 }
  
+p{
+  color: rgb(0, 0, 0);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

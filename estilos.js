@@ -9,7 +9,7 @@ function cambiarEstilo() {
     nuevoEstilo.setAttribute("href", "estilo2.css");
   }
 }
-
+/*
 const fulImgBox = document.getElementById("fulImgBox"),
 fulImg = document.getElementById("fulImg");
 
@@ -19,4 +19,4 @@ function openFulImg(reference){
 }
 function closeImg(){
     fulImgBox.style.display = "none";
-}
+}*/

@@ -14,3 +14,22 @@
 .img-gallery img:hover{
   transform: scale(1.2);
 }
+
+.button {
+  background-color: #202020;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}

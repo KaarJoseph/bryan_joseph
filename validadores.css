@@ -236,12 +236,12 @@ h2 {
 }
 
 .img-right {
-  width: 275px;
-  height: 275px;
+  width: 375px;
+  height: 175px;
   position: relative;
   top: -300px;
   left: 1000px;
-  transform: translate(-50%, -50%);
+  transform: translate(-35%, -35%);
 }
 
 /* Media query para dispositivos móviles */
@@ -353,4 +353,30 @@ footer p {
 .button:hover {
   background-color: white;
   color: black;
+}
+
+.centro{
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.centro p {
+  font-size: 0.8em;
+  padding: 0em 0em;
+  color: rgb(255, 255, 255);
+}
+
+.centro h2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
